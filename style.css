@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    margin: auto;
+    font-family: Open sans, sans-serif;
+    font-size: 16px;
+    color:black;
+    line-height: 25px;
+}
+
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-color: tomato;
+    border-style: dotted;
+    line-height: 2;
+    
+
+}
+
+.principal .nome{
+    margin-left: 100PX;
+    font-size: x-large;
+    
+
+}
+
+.principal .nome a spam {
+    color: turquoise;
+}
+
+.principal nav ul{
+    margin-right: 100px;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.principal a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.principal li {
+   display: inline-block;
+   width: 70px;
+   
+   
+}
+
+.primeira_pagina {
+    display: flex;
+    background-image:url('/img/img-fundo.jpg');
+    margin: 0px;
+    padding: 250px;
+}
+
+.slogan{
+    background: rgba(19,166,140, 0.7);
+    border-color: white;
+    border-style: solid;
+    padding: 10px 7px;
+    margin: 30px 170px;
+
+}
+
+.slogan h1{
+    font-size: 50px;
+    color: white;
+    font: larger;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+.slogan p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+
+}
